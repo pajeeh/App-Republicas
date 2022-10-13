@@ -19,7 +19,7 @@ class HomePage extends StatefulWidget {
 }
 
 class HomePageState extends State<HomePage> {
-  final user = FirebaseAuth.instance.currentUser;
+  //final user = FirebaseAuth.instance.currentUser;
 
   @override
   Widget build(BuildContext context) {
@@ -103,7 +103,7 @@ class HomePageState extends State<HomePage> {
                     fontWeight: FontWeight.w600,
                   )),
               onTap: () {
-                FirebaseAuth.instance.signOut();
+                //FirebaseAuth.instance.signOut();
               },
             ),
             const Divider(
