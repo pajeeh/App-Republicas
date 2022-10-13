@@ -1,0 +1,3 @@
+adicionar font_awesome_flutter aos packages
+adicionar shimmer aos packages
+adicionar maps_toolkit ao packages

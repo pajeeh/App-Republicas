@@ -13,13 +13,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.deepPurple,
       ),
-      home: Scaffold(
-        appBar: AppBar(
-          title: const Center(
-            child: Text('App Repúblicas'),
-          ),
-        ),
-        body: const Center(
+      home: const Scaffold(
+        body: Center(
           child: HomePage(),
         ),
       ),
