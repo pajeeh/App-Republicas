@@ -7,7 +7,6 @@
 // um ícone de 3 barras horizontais.
 
 import 'package:flutter/material.dart';
-import 'package:firebase_auth/firebase_auth.dart';
 import 'package:republicas/pages/user_acc.dart';
 import 'package:republicas/views/lista_reps.dart';
 
