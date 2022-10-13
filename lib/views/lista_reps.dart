@@ -1,9 +1,10 @@
-// Irá listar as republicas cadastradas no banco de dados
+// Irá listar as republicas cadastradas no banco de dados do firebase,
 // em ordem alfabética.
 // Haverá um pesquisa avançada, com filtro de avaliação,
 // popularidade, localização, preço.
 // Deve ser possível favoritar uma república, semelhante ao
 // ícone de coração do instagram.
+// Efeito shimmer, para carregar as republicas.
 
 import 'package:flutter/material.dart';
 

@@ -22,7 +22,73 @@ class HomePageState extends State<HomePage> {
 
   @override
   Widget build(BuildContext context) {
+    const drawerHeader = UserAccountsDrawerHeader(
+      accountName: Text('Nome do usuário'),
+      accountEmail: Text('Email do usuário'),
+      currentAccountPicture: CircleAvatar(
+        child: FlutterLogo(size: 42.0),
+      ),
+    );
+
+    final drawerItems = ListView(
+      children: [
+        drawerHeader,
+        ListTile(
+          title: const Text('Minha conta'),
+          subtitle: const Text('Gerenciar minha conta'),
+          leading: const Icon(Icons.account_circle),
+          onTap: () {
+            Navigator.push(
+              context,
+              MaterialPageRoute(builder: (context) => const UserAcc()),
+            );
+          },
+        ),
+        ListTile(
+          title: const Text('Cadastrar República'),
+          subtitle: const Text('Cadastrar nova república'),
+          leading: const Icon(Icons.add),
+          onTap: () {},
+        ),
+        ListTile(
+          title: const Text('Favoritos'),
+          subtitle: const Text('Lista de favoritos cadastrados'),
+          leading: const Icon(Icons.favorite),
+          onTap: () {},
+        ),
+        ListTile(
+          title: const Text('Comentários'),
+          subtitle: const Text('Comentários do aplicativo'),
+          leading: const Icon(Icons.comment),
+          onTap: () {},
+        ),
+        ListTile(
+          title: const Text('Sobre'),
+          subtitle: const Text('Sobre o App Repúblicas'),
+          leading: const Icon(Icons.info),
+          onTap: () {},
+        ),
+        ListTile(
+          title: const Text('Sair'),
+          leading: const Icon(Icons.exit_to_app),
+          onTap: () {},
+        ),
+      ],
+    );
+
     return Scaffold(
+      appBar: AppBar(
+        title: const Text('Republicas'),
+      ),
+      body: const ListaReps(),
+      drawer: Drawer(
+        child: drawerItems,
+      ),
+    );
+  }
+}
+
+    /*return Scaffold(
       body: const ListaReps(),
       appBar: AppBar(
         title: const Text(
@@ -135,3 +201,4 @@ class HomePageState extends State<HomePage> {
     );
   }
 }
+*/
