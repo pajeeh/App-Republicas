@@ -33,7 +33,7 @@ android {
         minSdkVersion 19
     }      
     
-    compileSdkVersion 33//flutter.compileSdkVersion
+    compileSdkVersion flutter.compileSdkVersion
     ndkVersion flutter.ndkVersion
 
     compileOptions {

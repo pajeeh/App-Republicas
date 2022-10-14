@@ -2,6 +2,8 @@
 // email, senha, contato, etc. Possui um botão para salvar as alterações.
 // Possui um drawer para navegação entre as páginas.
 
+// ignore_for_file: non_constant_identifier_names
+
 import 'package:flutter/material.dart';
 import '../services/firebase_crud.dart';
 
@@ -10,6 +12,7 @@ class UserAccPage extends StatefulWidget {
 
   @override
   State<StatefulWidget> createState() {
+    // ignore: todo
     // TODO: implement createState
     return _UserAccPage();
   }

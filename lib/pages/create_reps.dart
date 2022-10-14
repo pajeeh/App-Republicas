@@ -10,7 +10,5 @@
 // Deve haver um botão para cadastrar a república, que irá enviar os dados
 // para o banco de dados no firebase.
 
-import 'package:flutter/material.dart';
-import 'package:firebase_core/firebase_core.dart';
 
 
