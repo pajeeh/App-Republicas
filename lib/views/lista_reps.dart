@@ -1,5 +1,7 @@
 // Irá listar as republicas cadastradas no banco de dados do firebase,
 // em ordem alfabética.
+// Deve permitir o usuário favoritar uma república, e também deve permitir
+// que o usuário pesquise por uma república específica.
 // Haverá um pesquisa avançada, com filtro de avaliação,
 // popularidade, localização, preço.
 // Deve ser possível favoritar uma república, semelhante ao
@@ -15,11 +17,7 @@ class ListaReps extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        centerTitle: true,
         title: const Text('Lista de Repúblicas'),
-      ),
-      body: const Center(
-        child: Text('Lista de Repúblicas'),
       ),
     );
   }

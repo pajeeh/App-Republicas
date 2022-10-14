@@ -4,11 +4,13 @@
 // se possui garagem, se possui internet, 
 // tipos de quartos(individuais ou compartilhados),
 // se possui animais de estimação, se possui área de lazer(descrição).
-// Haverá um espaço para adicionar fotos da república(obrigatório).
+// Haverá um espaço para adicionar fotos da república(obrigatório), 
+// o usuário poderá adicionar quantas fotos quiser, mas pelo menos uma
+// deve ser adicionada. Deve ser possível adicionar fotos da galeria.
 // Deve haver um botão para cadastrar a república, que irá enviar os dados
 // para o banco de dados no firebase.
 
 import 'package:flutter/material.dart';
-import 'package:republicas/pages/home.dart';
-import 'package:republicas/pages/user_acc.dart';
-import 'package:republicas/pages/create_reps.dart';
+import 'package:firebase_core/firebase_core.dart';
+
+
