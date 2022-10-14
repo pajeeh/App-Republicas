@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "56979916917",
+    "project_id": "app-reps",
+    "storage_bucket": "app-reps.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:56979916917:android:3afcf09b6436bfecee103c",
+        "android_client_info": {
+          "package_name": "com.pajeeh.republicas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "56979916917-99upp4pni650cigd5udchvs9hv5p75f5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWNhVLDJ9UWKU8saV9LcgvV4esyVVWM5g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "56979916917-99upp4pni650cigd5udchvs9hv5p75f5.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "56979916917-bn7fa8928d37504ain55kch5umrp0itp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.republicas"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
