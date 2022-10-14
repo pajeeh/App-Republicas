@@ -4,6 +4,7 @@ class User {
   String? email;
   String? photoURL;
   String? phoneNumber;
+  String? password;
 
   User({
     this.uid,
@@ -11,5 +12,6 @@ class User {
     this.email,
     this.photoURL,
     this.phoneNumber,
+    this.password,
   });
 }

@@ -1,3 +1,5 @@
+// ignore_for_file: non_constant_identifier_names, unused_local_variable
+
 import 'package:cloud_firestore/cloud_firestore.dart';
 import '../models/response.dart';
 
@@ -11,7 +13,9 @@ class FirebaseCrud {
     required String email,
     required String senha,
     required String telefone,
+    required String uid,
   }) async {
+
     Response response = Response();
     DocumentReference documentReferencer = _Collection.doc();
 
