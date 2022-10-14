@@ -1,2 +1,3 @@
-2022/10/07-23:08:43.593 5 Creating DB /tmp/flutter_tools.OJBOSS/flutter_tools_chrome_device.LHIVQR/Default/Session Storage since it was missing.
-2022/10/07-23:08:44.009 5 Reusing MANIFEST /tmp/flutter_tools.OJBOSS/flutter_tools_chrome_device.LHIVQR/Default/Session Storage/MANIFEST-000001
+2022/10/13-22:04:55.333 3 Reusing MANIFEST /tmp/flutter_tools.FTXKXV/flutter_tools_chrome_device.LEPQNQ/Default/Session Storage/MANIFEST-000001
+2022/10/13-22:04:55.334 3 Recovering log #3
+2022/10/13-22:04:55.335 3 Reusing old log /tmp/flutter_tools.FTXKXV/flutter_tools_chrome_device.LEPQNQ/Default/Session Storage/000003.log 
