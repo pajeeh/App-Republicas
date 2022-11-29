@@ -4,6 +4,8 @@ import 'package:def_app_republicas/pages/cria_rep.dart';
 import 'package:def_app_republicas/pages/new_login_page.dart';
 import 'package:flutter/material.dart';
 
+import 'pages/premium_ad_page.dart';
+
 void main() => runApp(const MyApp());
 
 class MyApp extends StatelessWidget {
@@ -13,12 +15,13 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Up Reps - Repúblicas Universitárias',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
       home: const Center(child: NewLoginPage()),
+      //home: const PremiumAdPage(),
     );
   }
 }

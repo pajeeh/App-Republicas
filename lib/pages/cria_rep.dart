@@ -202,7 +202,7 @@ class _CadastrarNovaRepState extends State<CadastrarNovaRep> {
                           areaLazer: _areaLazer,
                           descricao: _descricaoController.text,
                         );
-                        print(rep);
+                        //print(rep);
                       }
                       // Exibe um pop-up com o nome da república cadastrada
                       ScaffoldMessenger.of(context).showSnackBar(

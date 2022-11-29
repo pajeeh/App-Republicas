@@ -39,7 +39,7 @@ class _AnuncioPremiumButtonState extends State<AnuncioPremiumButton> {
         );
       },
       gradient: premiumGradient,
-      child: Text('Anúncio Premium', style: basicStyle),
+      child: Text('Assinatura Premium', style: basicStyle),
     );
   }
 }
