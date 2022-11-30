@@ -2,6 +2,8 @@
 // e um botão para realizar o pagamento, que deve levar para a página de
 // pagamento.
 
+// ignore_for_file: sort_child_properties_last
+
 /* ! Benefícios:
 * 1. Preferência na busca
 * 2. Destaque no feed

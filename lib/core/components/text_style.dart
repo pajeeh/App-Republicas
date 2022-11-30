@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:republicas/core/constants/colors.dart';
+
+import '../constants/colors.dart';
 
 class Estiloso {
   static textStyle({
