@@ -1,6 +1,6 @@
 // Página que irá cadastrar uma república
 // ToDo: Estilizar para ficar semelhante ao aplicativo(iOS)
-// ignore_for_file: unused_import, unused_field, overridden_fields, use_key_in_widget_constructors, annotate_overrides, non_constant_identifier_names
+// ignore_for_file: unused_import, unused_field, overridden_fields, use_key_in_widget_constructors, annotate_overrides, non_constant_identifier_names, unused_local_variable
 
 import 'package:def_app_republicas/components/widgets/premium_ad_button.dart';
 import 'package:def_app_republicas/pages/home/home_page.dart';

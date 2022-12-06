@@ -1,27 +1,62 @@
-// ignore_for_file: unused_import
+// ! Página para iniciar o app
 
-import 'package:def_app_republicas/pages/cria_rep.dart';
-import 'package:def_app_republicas/pages/new_login_page.dart';
+/*
+problema: Layout overflow by
+solução: singlechildscrollview ou set resizetoavoidbottominset \
+resizetoavoidbottompadding to false in scaffold
+*/
 import 'package:flutter/material.dart';
-
-import 'pages/premium_ad_page.dart';
+import 'animations/splash_screen.dart';
 
 void main() => runApp(const MyApp());
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Up Reps - Repúblicas Universitárias',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        backgroundColor: const Color(0xfff5f6f6),
+        primaryColor: const Color(0xff811b83),
+        colorScheme: ColorScheme.fromSwatch().copyWith(
+          secondary: const Color(0xfffa5019),
+        ),
+        textTheme: TextTheme(
+          headline1: const TextStyle(
+            color: Color(0xff100e34),
+          ),
+          bodyText1: TextStyle(
+            color: const Color(0xff100e34).withOpacity(0.5),
+          ),
+        ),
       ),
-      home: const Center(child: NewLoginPage()),
-      //home: const PremiumAdPage(),
+      home: Scaffold(body: _Body()),
+    );
+  }
+}
+
+class _Body extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      constraints: const BoxConstraints.expand(),
+      decoration: const BoxDecoration(color: Colors.red),
+      child: SafeArea(
+        child: _SafeHeightWidget(),
+      ),
+    );
+  }
+}
+
+class _SafeHeightWidget extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return LayoutBuilder(
+      builder: (context, constraints) {
+        return const MySplashScreen();
+      },
     );
   }
 }

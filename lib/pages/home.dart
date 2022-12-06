@@ -7,8 +7,8 @@
 // um ícone de 3 barras horizontais.
 
 import 'package:flutter/material.dart';
-import 'package:republicas/pages/user_acc.dart';
-import 'package:republicas/views/lista_reps.dart';
+
+import '../views/lista_reps.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -37,12 +37,7 @@ class HomePageState extends State<HomePage> {
           title: const Text('Minha conta'),
           subtitle: const Text('Gerenciar minha conta'),
           leading: const Icon(Icons.account_circle),
-          onTap: () {
-            Navigator.push(
-              context,
-              MaterialPageRoute(builder: (context) => const UserAccPage()),
-            );
-          },
+          onTap: () {},
         ),
         ListTile(
           title: const Text('Cadastrar República'),
