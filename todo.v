@@ -1,0 +1,1 @@
+// * Categorias das repúblicas [Masculino, Feminino, Misto, LGBTQIAP+]
