@@ -2,8 +2,6 @@
 // e um botão para realizar o pagamento, que deve levar para a página de
 // pagamento.
 
-// ignore_for_file: sort_child_properties_last
-
 /* ! Benefícios:
 * 1. Preferência na busca
 * 2. Destaque no feed
@@ -15,9 +13,9 @@
 //* os benefícios devem ser exibidos em um card, com um botão ao final
 
 // Path: lib/pages/premium_ad_page.dart
-
-import 'package:def_app_republicas/components/colors/colors.dart';
 import 'package:flutter/material.dart';
+
+import '../constants/colors/colors.dart';
 
 class PremiumAdPage extends StatefulWidget {
   const PremiumAdPage({super.key});
@@ -326,18 +324,18 @@ class PremiumAdPageDetails extends StatelessWidget {
                         height: MediaQuery.of(context).size.height / 15,
                         child: ElevatedButton(
                           onPressed: () {},
+                          style: ElevatedButton.styleFrom(
+                            backgroundColor: red,
+                            shape: RoundedRectangleBorder(
+                              borderRadius: BorderRadius.circular(10),
+                            ),
+                          ),
                           child: const Text(
                             'Assinar',
                             style: TextStyle(
                               fontSize: 20,
                               fontWeight: FontWeight.bold,
                               color: branco,
-                            ),
-                          ),
-                          style: ElevatedButton.styleFrom(
-                            backgroundColor: red,
-                            shape: RoundedRectangleBorder(
-                              borderRadius: BorderRadius.circular(10),
                             ),
                           ),
                         ),
