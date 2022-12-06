@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:up_reps/widgets/new_rep_btn_widget.dart';
+import '../widgets/new_rep_btn_widget.dart';
 import '../constants/colors/colors.dart';
 import '../constants/txt_banner.dart';
 import '../widgets/lgn_btn_widget.dart';

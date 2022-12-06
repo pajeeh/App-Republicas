@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:up_reps/constants/colors/colors.dart';
-import 'package:up_reps/plugins/gbtn_plugin.dart';
-
+import '../constants/colors/colors.dart';
+import '../plugins/gbtn_plugin.dart';
 import '../pages/cad_user_page.dart';
 
 class CadButton extends StatefulWidget {

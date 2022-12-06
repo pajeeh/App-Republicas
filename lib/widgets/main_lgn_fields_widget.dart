@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:up_reps/constants/colors/colors.dart';
+import '../constants/colors/colors.dart';
 
 class MainLoginFields extends StatelessWidget{
   MainLoginFields({Key? key}) : super(key: key);
