@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import '../widgets/new_rep_btn_widget.dart';
-import '../constants/colors/colors.dart';
-import '../constants/txt_banner.dart';
+import '../colors/colors.dart';
+import '../misc/txt_banner.dart';
 import '../widgets/lgn_btn_widget.dart';
 import '../widgets/cad_btn_widget.dart';
 import '../widgets/logo.dart';

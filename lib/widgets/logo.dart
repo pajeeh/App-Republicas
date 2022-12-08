@@ -1,6 +1,6 @@
 // Irá posicionar o logo no centro da tela
 import 'package:flutter/material.dart';
-import '../constants/colors/colors.dart';
+import '../colors/colors.dart';
 
 class Logo extends StatelessWidget {
   const Logo({super.key});

@@ -16,6 +16,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      title: 'Up Reps - Repúblicas Universitárias',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         backgroundColor: const Color(0xfff5f6f6),
@@ -32,7 +33,9 @@ class MyApp extends StatelessWidget {
           ),
         ),
       ),
-      home: Scaffold(body: _Body()),
+      home: Scaffold(
+        body: _Body(),
+      ),
     );
   }
 }

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../constants/colors/colors.dart';
+import '../colors/colors.dart';
 import '../plugins/gbtn_plugin.dart';
 import '../pages/cad_user_page.dart';
 

@@ -1,7 +1,7 @@
 // * Widget para pesquisar
 
 import 'package:flutter/material.dart';
-import '../constants/colors/colors.dart';
+import '../colors/colors.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
 class BuscaInput extends StatelessWidget {

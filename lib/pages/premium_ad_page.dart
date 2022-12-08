@@ -15,7 +15,7 @@
 // Path: lib/pages/premium_ad_page.dart
 import 'package:flutter/material.dart';
 
-import '../constants/colors/colors.dart';
+import '../colors/colors.dart';
 
 class PremiumAdPage extends StatefulWidget {
   const PremiumAdPage({super.key});

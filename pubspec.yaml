@@ -24,6 +24,11 @@ dependencies:
   animations: ^2.0.7
   flutter_svg: ^1.1.6
   favorite_button: ^0.0.4
+  flutter_launcher_icons: ^0.11.0
+
+flutter_icons:
+  android: "launcher_icon"
+  image_path: "assets/icon/icon/android/res/mipmap-xxxhdpi/ic_launcher.png"
 
 dev_dependencies:
   flutter_test:
@@ -32,7 +37,6 @@ dev_dependencies:
   flutter_lints: ^2.0.0
 
 flutter:
-
   uses-material-design: true
 
   assets:

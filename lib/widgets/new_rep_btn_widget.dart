@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../constants/colors/colors.dart';
+import '../colors/colors.dart';
 import '../pages/cad_rep_page.dart';
 import '../plugins/gbtn_plugin.dart';
 

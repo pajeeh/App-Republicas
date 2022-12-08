@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '/constants/colors/colors.dart';
+import '../colors/colors.dart';
 import '../data/base/republicas.dart';
 
 class Conteudo extends StatelessWidget {

@@ -6,7 +6,7 @@
 
 import 'package:flutter/material.dart';
 import '/animations/home_screen.dart';
-import '../constants/colors/colors.dart';
+import '../colors/colors.dart';
 import 'package:animated_text_kit/animated_text_kit.dart';
 import 'dart:async';
 

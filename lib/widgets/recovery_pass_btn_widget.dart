@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import '/plugins/gbtn_plugin.dart';
 
-import '../constants/colors/colors.dart';
+import '../colors/colors.dart';
 
 class RecoveryPassButton extends StatefulWidget{
   const RecoveryPassButton({Key? key}) : super(key: key);

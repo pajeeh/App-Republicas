@@ -2,7 +2,7 @@
 
 import 'package:favorite_button/favorite_button.dart';
 import 'package:flutter/material.dart';
-import '../constants/colors/colors.dart';
+import '../colors/colors.dart';
 import '../data/base/republicas.dart';
 
 class BestOffer extends StatelessWidget {

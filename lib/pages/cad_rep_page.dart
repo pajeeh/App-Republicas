@@ -2,7 +2,7 @@
 
 import 'package:flutter/material.dart';
 
-import '../constants/colors/colors.dart';
+import '../colors/colors.dart';
 import '../home/home.dart';
 import '../widgets/ad_btn_widget.dart';
 import 'login_page.dart';
@@ -111,7 +111,7 @@ class _CadastrarNovaRepState extends State<CadastrarNovaRep> {
                           NRepWidget(
                             controller: _aluguelIndController,
                             label: "Valor do aluguel individual",
-                            hint: "Ex: 500",
+                            hint: "Ex: 300",
                             key: const Key('aluguelInd'),
                           ),
                           NRepWidget(
