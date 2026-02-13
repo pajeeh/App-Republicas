@@ -1,55 +1,65 @@
-# 🏠 App Repúblicas
+# App Republicas
 
-> Solução mobile para conectar estudantes universitários a moradias e repúblicas de forma simples e segura.
+App Republicas is a decentralized and innovative project that provides platforms for managing and organizing various republic activities. This repository contains the source code and documentation for the application.
 
-[![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://flutter.dev)
-[![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)](https://dart.dev)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+## Table of Contents
+- [Prerequisites](#prerequisites)
+- [Installation Instructions](#installation-instructions)
+- [Project Structure](#project-structure)
+- [Features](#features)
+- [Troubleshooting](#troubleshooting)
+- [Contributing Guidelines](#contributing-guidelines)
+- [License](#license)
 
-## 📋 Sobre o Projeto
+## Prerequisites
+- **Node.js** (v12 or later)
+- **npm** (v6 or later)
+- **Git**
 
-O **App Repúblicas** nasceu da necessidade de centralizar a busca por moradia estudantil. O aplicativo permite que proprietários e estudantes anunciem vagas em repúblicas, facilitando o filtro por proximidade da universidade, preço e perfil dos moradores.
-
----
-
-## ✨ Funcionalidades
-
-- [x] **Busca Inteligente:** Filtros por localização e valor.
-- [x] **Gestão de Anúncios:** Cadastro detalhado de vagas com fotos e descrições.
-- [x] **Perfil do Usuário:** Informações sobre o curso e preferências de convivência.
-- [ ] **Chat Integrado:** Comunicação direta entre interessados (Em desenvolvimento).
-- [ ] **Geolocalização:** Visualização de vagas em um mapa interativo.
-
----
-
-## 🚀 Tecnologias e Ferramentas
-
-O projeto utiliza o que há de mais moderno no ecossistema mobile e práticas de engenharia:
-
-- **Framework:** [Flutter](https://flutter.dev)
-- **Linguagem:** [Dart](https://dart.dev)
-- **Gerência de Estado:** (Provider)
-- **Arquitetura:** Clean Architecture (Organização em camadas para facilitar testes e manutenção).
-- **Backend:** Firebase (Authentication, Firestore e Storage).
-
----
-
-## 🛠️ Como Executar o Projeto
-
-1. **Clone o repositório:**
+## Installation Instructions
+1. Clone the repository:
    ```bash
-   git clone [https://github.com/pajeeh/App-Republicas.git](https://github.com/pajeeh/App-Republicas.git)
+   git clone https://github.com/pajeeh/App-Republicas.git
+   cd App-Republicas
    ```
-2. **Instale as dependências:**
-    ```bash
-   flutter pub get
-   ```
-3. **Execute o app:**
-    ```bash
-   flutter run
+2. Install dependencies:
+   ```bash
+   npm install
    ```
 
-   👨‍💻 Desenvolvedor
-Luís A. G. Dos Santos(Pajeeh) Desenvolvedor Flutter
+## Project Structure
+The project directory is organized as follows:
+```
+App-Republicas/
+├── src/             # Source files
+│   ├── components/  # React components
+│   ├── utils/       # Helper functions
+│   └── App.js       # Main application
+├── public/          # Static files
+├── tests/           # Test cases
+├── .gitignore       # Git ignore file
+├── package.json     # Project metadata and dependencies
+└── README.md        # Project documentation
+```
 
-Este projeto é parte do meu portfólio de desenvolvimento mobile e está em constante evolução.
+## Features
+- User registration and authentication
+- Real-time updates
+- Responsive design
+- Multi-language support
+- Comprehensive dashboard for managing republic activities
+
+## Troubleshooting
+- **Error: "node not found"** - Ensure Node.js is correctly installed and added to your PATH.
+- **Error: "npm install fails"** - Check your internet connection or try clearing the npm cache with `npm cache clean --force`.
+
+## Contributing Guidelines
+We welcome contributions! Please follow these steps:
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/YourFeature`).
+3. Make your changes and commit (`git commit -m 'Add your feature'`).
+4. Push the branch (`git push origin feature/YourFeature`).
+5. Create a pull request.
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
