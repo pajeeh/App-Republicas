@@ -39,19 +39,17 @@ O projeto utiliza o que há de mais moderno no ecossistema mobile e práticas de
 1. **Clone o repositório:**
    ```bash
    git clone [https://github.com/pajeeh/App-Republicas.git](https://github.com/pajeeh/App-Republicas.git)
-
-   Instale as dependências:
-
-Bash
-flutter pub get
-Execute o app:
-
-Bash
-flutter run
+   ```
+2. **Instale as dependências:**
+    ```bash
+   flutter pub get
+   ```
+3. **Execute o app:**
+    ```bash
+   flutter run
+   ```
 
    👨‍💻 Desenvolvedor
-Luís A. G. Dos Santos(Pajeeh)
+Luís A. G. Dos Santos(Pajeeh) Desenvolvedor Flutter
 
 Este projeto é parte do meu portfólio de desenvolvimento mobile e está em constante evolução.
-
---- 
