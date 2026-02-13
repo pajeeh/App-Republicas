@@ -148,4 +148,8 @@ Contribuições são sempre bem-vindas!
 
 ## 📄 Licença
 
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+Este projeto está sob a licença GPLv3.
+
+Isso significa que você pode usar, estudar e modificar o código livremente, mas qualquer distribuição ou modificação deste projeto deve permanecer Open Source sob a mesma licença.
+
+Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
