@@ -152,7 +152,3 @@ Contribuições são sempre bem-vindas!
 ## 📄 Licença
 
 Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://www.google.com/search?q=LICENSE) para mais detalhes.
-
-```
-
-```
