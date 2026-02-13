@@ -60,7 +60,7 @@ Siga o passo a passo abaixo para rodar a aplicação na sua máquina:
 ### 1. Clone o repositório
 
 ```bash
-git clone [https://github.com/pajeeh/App-Republicas.git](https://github.com/pajeeh/App-Republicas.git)
+git clone https://github.com/pajeeh/App-Republicas.git
 cd App-Republicas
 ```
 
@@ -107,7 +107,6 @@ Para garantir a qualidade do código, execute os testes unitários:
 
 ```bash
 flutter test
-
 ```
 
 ---
@@ -118,14 +117,12 @@ Para gerar o APK para Android:
 
 ```bash
 flutter build apk --release
-
 ```
 
 Para gerar o arquivo IPA para iOS (necessário macOS):
 
 ```bash
 flutter build ios --release
-
 ```
 
 ---
@@ -144,11 +141,11 @@ Contribuições são sempre bem-vindas!
 
 ## 👨‍💻 Autor
 
-**Luís A. G. Dos Santos (Pajeeh)**
+**Luís A. G. Dos Santos (Pajeeh)**  
 *Desenvolvedor Flutter*
 
 ---
 
 ## 📄 Licença
 
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://www.google.com/search?q=LICENSE) para mais detalhes.
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
